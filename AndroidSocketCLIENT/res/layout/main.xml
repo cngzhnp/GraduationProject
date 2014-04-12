@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/info"
+>
+
+<TextView
+android:id ="@+id/textKullanici"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/textKullanici"
+ />
+
+<EditText
+android:id="@+id/editKullanici"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="text"
+
+/>
+
+<TextView
+android:id="@+id/textParola"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/textParola"
+ />
+
+<EditText
+android:id="@+id/editParola"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+/>
+
+<Button 
+android:id="@+id/buttonGiris"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/buttonGiris"
+android:onClick="sendButtonClick"
+/>
+</LinearLayout>

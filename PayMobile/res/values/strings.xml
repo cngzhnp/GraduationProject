@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pay Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad">Ad:</string>
+    <string name="soyad">Soyad:</string>
+    <string name="faturaNo">Fatura No:</string>
+    <string name="tutar">Fatura Tutarı:</string>
+    <string name="btnSend">Gönder</string>
+    <string name="textAd"></string>
+    <string name="textSoyad"></string>
+    <string name="textFaturaNo"></string>
+    <string name="textTutar"></string>
+    
+
+</resources>
